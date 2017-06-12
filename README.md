@@ -1,39 +1,26 @@
-## CleanBlogEnhanced jekyll template
-[![Build Status](https://travis-ci.org/ShikherVerma/Shikherverma.github.io.svg?branch=master)](https://travis-ci.org/fekracomputers/fekracomputers.github.io)
+## fekracomputers.github.io
 
-CleanBlogEnhanced is a ready-to-use template to help you create an awesome website quickly. Perfect for personal blogs or simple project websites.
+[![Build Status](https://travis-ci.org/fekracomputers/fekracomputers.github.io.svg?branch=master)](https://travis-ci.org/fekracomputers/fekracomputers.github.io)
 
-Jekyll blog based on [Clean Blog](http://startbootstrap.com/template-overviews/clean-blog/).
+Home for Fekra computers islamic open source projects  
+It has two main goals:
+1. Source for [fekracomputers.github.io](http://fekracomputers.github.io) website
+2. The issue tracker for general issues and open source islamic project suggestion
 
-List of features :
-* Subfolder for blog, landing page different than blog
-* Comments using Disqus
-* Website stats using Google Analytics
-* Email subscription using FeedBurner
-* Travis build script to verify build and external links
-* Read Time Estimation for blog posts
-* Blog post tags
-* Tag specific pages
-* Jekyll collection for portfolio
-* Serverless search using javascript
-* Minimalistic Error 404 page
-* A solid [guide](http://shikherverma.com/blog/Yet-Another-Jekyll-Blog) on how to customize or remove individual features.
+## The website
+1. Provide news and information about the applications
+2. A blog
+    1. Provide general instructions for contributing in our projects
+    2. Provide some technical
+Note that the website and all its content _is_ a **git repo** so any for any suggestion, typo or correction make a pull request
+  
+## Project Idea Suggestion or general contribution
 
-## Usage
+- If you think of any Islamic software project Idea please create an issue in [the issue track](https://github.com/fekracomputers/fekracomputers.github.io/issues) and tag it "project suggestion"
 
-* Fork the repo
-* Rename to `username.github.io`
-* Modify the `_config` file
-* Replace all the posts and images with your data
-* In depth description of how to use this template is [here](http://shikherverma.com/blog/Yet-Another-Jekyll-Blog)
-
-## Questions, Bugs and Issues
-
-Have a question about this template ?  
-Or want to report a bug or an issue with this template?  
-[Open a new issue](https://github.com/ShikherVerma/shikherverma.github.io/issues) here on GitHub
+- If you want to contribute with your **coding** ,**UI design**, **translation** or  **website** editing effort but don't know where to star or which issue have higher priority please create an issue in [the issue track](https://github.com/fekracomputers/fekracomputers.github.io/issues) and tag it "help offer" and your specific skill as (web,android ...)
 
 ## Copyright and License
-
-Copyright ShikherVerma.  
-All rights reserved for the content data under `_posts`, `_portfolio` and `_images`, the rest of the code is released under the [MIT](https://github.com/ShikherVerma/shikherverma.github.io/blob/gh-pages/LICENSE) license.
+  
+- The content data under `_posts`, `_portfolio` and `_images` is Copyrighted to Fekra computeres under [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/) License.
+- The theme and code is forked from [Jekyll CleanBlogEnhanced theme](https://github.com/ShikherVerma/Shikherverma.github.io) Copyright ShikherVerma and released under the [MIT](https://github.com/ShikherVerma/shikherverma.github.io/blob/gh-pages/LICENSE) license.
