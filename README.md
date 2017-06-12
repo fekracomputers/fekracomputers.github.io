@@ -1,5 +1,5 @@
 ## CleanBlogEnhanced jekyll template
-[![Build Status](https://travis-ci.org/ShikherVerma/Shikherverma.github.io.svg?branch=master)](https://travis-ci.org/ShikherVerma/Shikherverma.github.io)
+[![Build Status](https://travis-ci.org/ShikherVerma/Shikherverma.github.io.svg?branch=master)](https://travis-ci.org/fekracomputers/fekracomputers.github.io)
 
 CleanBlogEnhanced is a ready-to-use template to help you create an awesome website quickly. Perfect for personal blogs or simple project websites.
 
