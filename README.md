@@ -8,10 +8,12 @@ It has two main goals:
 2. The issue tracker for general issues and open source islamic project suggestion
 
 ## The website
-1. Provide news and information about the applications
+1. Provide news and information about our applications
 2. A blog
     1. Provide general instructions for contributing in our projects
     2. Provide some technical
+    3. Information about open source islamic software generally
+
 Note that the website and all its content _is_ a **git repo** so any for any suggestion, typo or correction make a pull request
   
 ## Project Idea Suggestion or general contribution
