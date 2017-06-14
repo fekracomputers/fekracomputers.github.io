@@ -2,7 +2,7 @@
 anchor: MuslimMateAndroid 
 title: Islamic Library 
 image: img/portfolio/MuslimMate.png
-description: {{ page.content | markdownify }}
+description: {{ page.excerpt | markdownify }}
 date: September 2017
 category: Android
 ---
