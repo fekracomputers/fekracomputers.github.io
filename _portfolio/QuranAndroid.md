@@ -2,7 +2,7 @@
 anchor: QuranAndroid
 title: Quran for Android
 image: img/portfolio/Quran.png
-description: {{ page.content }}
+description: {{ page.content | markdownify }}
 team: AUV team
 date: September 2016
 category: Android
