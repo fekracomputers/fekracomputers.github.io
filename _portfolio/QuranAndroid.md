@@ -2,7 +2,7 @@
 anchor: QuranAndroid
 title: Quran for Android
 image: img/portfolio/Quran.png
-description: {{ page.content | markdownify }}
+description: bla ala
 date: September 2016
 category: Android
 ---
