@@ -9,6 +9,7 @@ android_github_link: https://github.com/fekracomputers/MuslimMateAndroid
 website_github_link: https://github.com/fekracomputers/MuslimMateWebsite
 api_github_link: https://github.com/fekracomputers/MuslimMateWebservice
 website_link: http://muslimmate.islam-db.com/
+api_link:  http://muslimmateapi.islam-db.com
 ---
 [![Build Status](https://travis-ci.org/fekracomputers/MuslimMateAndroid.svg?branch=master)](https://travis-ci.org/fekracomputers/MuslimMateAndroid)
 

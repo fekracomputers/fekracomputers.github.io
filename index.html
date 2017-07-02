@@ -49,7 +49,6 @@ description: "Islamic Opens Source Software news,Ideas and tutorials"
 	<div class="row">
 		{% for item in site.portfolio %}
 		<div class="col-sm-6 portfolio-item">
-			<div class="row">
 				<a href="#{{ item.anchor }}" class="portfolio-link" data-keyboard="true" data-toggle="modal">
 				
 					<div class="caption" >
@@ -61,53 +60,76 @@ description: "Islamic Opens Source Software news,Ideas and tutorials"
 					</div>
 					<img src="{{ item.image }}" class="img-responsive center-img" alt="">
 				</a>
-			</div>
 			
-			<div class="row text-center">
-				<div class="col-sm-4">
-				Android
-				</div>
-				<div class="col-sm-4">
-				website
-				</div>
-				<div class="col-sm-4">
-				api
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-4">
-					<a href="{{ item.play_store }}"> 
-					<img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" class="img-responsive img-centered" alt="get it on googlr play">
-					</a>
-				</div>
-				<div class="col-sm-4">
-				<div class="col-sm-4">
-					<a href="{{ item.website_link }}"> 
-					<img src="https://cdn0.iconfinder.com/data/icons/seo-smart-pack/128/grey_new_seo2-04-48.png" class="img-responsive img-centered" alt="open website">
-					</a>
-				</div>		
-				</div>
-				<div class="col-sm-4">
-				api
-				</div>
-			</div>
-			<div class="row">			
-				<div class="col-sm-4">
-				<a href="{{ item.android_github_link }}"> 
-					<img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" class="img-responsive img-centered" alt="Source code">
-				</a>			
-				</div>
-				<div class="col-sm-4">
-				<a href="{{ item.website_github_link }}"> 
-					<img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" class="img-responsive img-centered" alt="Source code">
-				</a>
-				</div>
-				<div class="col-sm-4">
-				<a href="{{ item.api_github_link }}"> 
-					<img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" class="img-responsive img-centered" alt="Source code">
-				</a>
-				</div>
-			</div>
+			<table class="table table-bordered">
+			<thead>
+				<tr>
+			
+					<td>
+					Android
+					</td>
+			
+					<td>
+					website
+					</td>
+
+					<td>
+					api
+					</td>
+
+						
+				</tr>
+			</thead>
+			
+			 <tbody>
+			 <tr>
+			
+					<td>
+						<a href="{{ item.play_store }}"> 
+							<img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" class="img-responsive img-centered" alt="get it on googlr play">
+						</a>
+					</td>
+			
+					<td>
+						<a href="{{ item.website_link }}"> 
+							<img src="https://cdn0.iconfinder.com/data/icons/seo-smart-pack/128/grey_new_seo2-04-48.png" class="img-responsive img-centered" alt="open website">
+						</a>
+					</td>
+
+					<td>
+						<a href="{{ item.api_link }}"> 
+							<img src="https://cdn0.iconfinder.com/data/icons/seo-smart-pack/128/grey_new_seo2-04-48.png" class="img-responsive img-centered" alt="open website">
+						</a>
+					</td>
+
+						
+				</tr>
+				
+				<tr>
+			
+					<td>
+						<a href="{{ item.android_github_link }}"> 
+							<img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" class="img-responsive img-centered" alt="Source code">
+						</a>
+					</td>
+			
+					<td>
+						<a href="{{ item.website_github_link }}"> 
+							<img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" class="img-responsive img-centered" alt="Source code">
+						</a>
+					</td>
+
+					<td>
+						<a href="{{ item.api_github_link }}"> 
+							<img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" class="img-responsive img-centered" alt="Source code">
+						</a>
+					</td>
+
+						
+				</tr>						
+			 
+			 </tbody>
+			</table>			
 		</div>
 		{% endfor %}
 	</div>
