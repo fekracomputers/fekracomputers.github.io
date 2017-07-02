@@ -1,13 +1,15 @@
 ---
 anchor: Quran
-title: Quran
+title:  Quran
 image: img/portfolio/Quran.png
-date: September 2016
+date: September 2017
 category: Android
-play_store:https://play.google.com/store/apps/details?id=com.fekracomputers.quran&hl=en&utm_source=github&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1
-android_github_link: https://github.com/fekracomputers/QuranAndroid
-website_github_link: https://github.com/fekracomputers/QuranWebsite
-website_link: http://quran.islam-db.com/
+play_store: https://play.google.com/store/apps/details?id=com.fekracomputers.muslimmate&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1
+android_github_link: https://github.com/fekracomputers/MuslimMateAndroid
+website_github_link: https://github.com/fekracomputers/MuslimMateWebsite
+api_github_link: https://github.com/fekracomputers/MuslimMateWebservice
+website_link: http://muslimmate.islam-db.com/
+api_link:  http://muslimmateapi.islam-db.com
 ---
 [![Build Status](https://travis-ci.org/fekracomputers/QuranAndroid.svg?branch=master)](https://travis-ci.org/fekracomputers/QuranAndroid)
 
