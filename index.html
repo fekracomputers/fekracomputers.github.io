@@ -49,6 +49,7 @@ description: "Islamic Opens Source Software news,Ideas and tutorials"
 	<div class="row">
 		{% for item in site.portfolio %}
 		<div class="col-sm-6 portfolio-item">
+		<p><b>{{ item.title }}</b></p>
 				<a href="#{{ item.anchor }}" class="portfolio-link" data-keyboard="true" data-toggle="modal">
 
 					<div class="caption" >
@@ -101,11 +102,8 @@ description: "Islamic Opens Source Software news,Ideas and tutorials"
 					class="img-responsive img-centered" alt="api link"> </a>
 				</td>
 
-
 				</tr>
-
 				<tr>
-
 					<td>
 						<a href="{{ item.android_github_link }}">
 							<img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" class="img-responsive img-centered" alt="Source code">
