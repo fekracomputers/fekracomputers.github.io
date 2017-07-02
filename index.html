@@ -50,7 +50,7 @@ description: "Islamic Opens Source Software news,Ideas and tutorials"
 		{% for item in site.portfolio %}
 		<div class="col-sm-6 portfolio-item">
 				<a href="#{{ item.anchor }}" class="portfolio-link" data-keyboard="true" data-toggle="modal">
-				
+
 					<div class="caption" >
 						<div class="caption-content" >
 							{{ item.title }}<p></p>
@@ -60,15 +60,15 @@ description: "Islamic Opens Source Software news,Ideas and tutorials"
 					</div>
 					<img src="{{ item.image }}" class="img-responsive center-img" alt="">
 				</a>
-			
+
 			<table class="table table-bordered">
 			<thead class="text-center">
 				<tr>
-			
+
 					<td width="33.333%">
 					Android
 					</td>
-			
+
 					<td width="33.333%">
 					website
 					</td>
@@ -77,62 +77,61 @@ description: "Islamic Opens Source Software news,Ideas and tutorials"
 					api
 					</td>
 
-						
+
 				</tr>
 			</thead>
-			
+
 			 <tbody>
 			 <tr>
-			
+
 					<td>
-						<a href="{{ item.play_store }}"> 
+						<a href="{{ item.play_store }}">
 							<img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" class="img-responsive img-centered" alt="get it on googlr play">
 						</a>
 					</td>
-			
+
 					<td>
-						<a href="{{ item.website_link }}"> 
+						<a href="{{ item.website_link }}">
 							<img src="https://cdn0.iconfinder.com/data/icons/seo-smart-pack/128/grey_new_seo2-04-48.png" class="img-responsive img-centered" alt="open website">
 						</a>
 					</td>
 
-					<td>
-						<a href="{{ item.api_link }}"> 
-							<img src="https://cdn0.iconfinder.com/data/icons/seo-smart-pack/128/grey_new_seo2-04-48.png" class="img-responsive img-centered" alt="api link">
-						</a>
-					</td>
+					<td> <a href="{{ item.api_link }}">  <img
+					src="https://cdn0.iconfinder.com/data/icons/seo-smart-pack/128/grey_new_seo2-04-48.png"
+					class="img-responsive img-centered" alt="api link"> </a>
+				</td>
 
-						
+
 				</tr>
-				
+
 				<tr>
-			
+
 					<td>
-						<a href="{{ item.android_github_link }}"> 
-							<img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" class="img-responsive img-centered" alt="Source code">
-						</a>
-					</td>
-			
-					<td>
-						<a href="{{ item.website_github_link }}"> 
+						<a href="{{ item.android_github_link }}">
 							<img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" class="img-responsive img-centered" alt="Source code">
 						</a>
 					</td>
 
 					<td>
-						<a href="{{ item.api_github_link }}"> 
+						<a href="{{ item.website_github_link }}">
 							<img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" class="img-responsive img-centered" alt="Source code">
 						</a>
 					</td>
 
-						
-				</tr>						
-			 
+					<td>
+						<a href="{{ item.api_github_link }}">
+							<img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" class="img-responsive img-centered" alt="Source code">
+						</a>
+					</td>
+
+
+				</tr>
+
 			 </tbody>
-			</table>			
+			</table>
 		</div>
 		{% endfor %}
-	
+</div>
 	</section>
 
 	<!-- Portfolio Modals -->
@@ -155,7 +154,7 @@ description: "Islamic Opens Source Software news,Ideas and tutorials"
 								<img src="{{ item.image }}" class="img-responsive img-centered" alt="">
 								<p class="item-description">{{ item.content }}</p>
 								<ul class="list-inline item-details">
-									
+
 									<li>Date:
 										<strong>{{ item.date | date: '%B %Y' }}
 										</strong>
@@ -174,5 +173,3 @@ description: "Islamic Opens Source Software news,Ideas and tutorials"
 		</div>
 		{% endfor %}
 	</section>
-
-	
