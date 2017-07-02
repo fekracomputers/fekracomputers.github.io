@@ -2,7 +2,6 @@
 anchor: IslamicLibrary 
 title: Islamic Library 
 image: img/portfolio/IslamicLibrary.png
-description: {{ page.url }}
 date: Jun 2017
 category: Android
 ---
