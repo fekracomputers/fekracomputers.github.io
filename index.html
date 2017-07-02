@@ -49,22 +49,17 @@ description: "Islamic Opens Source Software news,Ideas and tutorials"
 	<div class="row">
 		{% for item in site.portfolio %}
 		<div class="col-sm-6 portfolio-item">
-		<div class="row">
-			<div class="col-sm-12>
-				<a href="#{{ item.anchor }}" class="portfolio-link" data-keyboard="true" data-toggle="modal">
+			<a href="#{{ item.anchor }}" class="portfolio-link" data-keyboard="true" data-toggle="modal">
 			
-					<div class="caption" >
-						<div class="caption-content" >
-							{{ item.title }}<p></p>
-							<i class="fa fa-search-plus"></i><p></p>
-							Category: {{ item.category }}
-						</div>
+				<div class="caption" >
+					<div class="caption-content" >
+						{{ item.title }}<p></p>
+						<i class="fa fa-search-plus"></i><p></p>
+						Category: {{ item.category }}
 					</div>
-					<img src="{{ item.image }}" class="img-responsive center-img" alt="">
-				</a>
-			</div>
-		</div>
-		<div class="row">
+				</div>
+				<img src="{{ item.image }}" class="img-responsive center-img" alt="">
+			</a>
 			<div class="col-sm-4">
 			android
 			</div>
@@ -74,10 +69,11 @@ description: "Islamic Opens Source Software news,Ideas and tutorials"
 			<div class="col-sm-4">
 			api
 			</div>
-		</div>
+
 
 		</div>
 		{% endfor %}
+	</div>
 	</section>
 
 	<!-- Portfolio Modals -->
