@@ -41,95 +41,26 @@ description: "Islamic Opens Source Software news,Ideas and tutorials"
 <section id="portfolio">
 	<div class="row">
 		<div class="text-center">
-			<h2>Our Open Source Projects</h2>
+			<h2>Here's the stuff I've yet to disavow.</h2>
 			<hr>
 		</div>
 	</div>
 
 	<div class="row">
 		{% for item in site.portfolio %}
-		<div class="col-sm-6 portfolio-item">
-		<p class="text-center"><b>{{ item.title }}</b></p>
-				<a href="#{{ item.anchor }}" class="portfolio-link" data-keyboard="true" data-toggle="modal">
-
-					<div class="caption" >
-						<div class="caption-content" >
-							{{ item.title }}<p></p>
-							<i class="fa fa-search-plus"></i><p></p>
-							<!-- Category: {{ item.category }} -->
-						</div>
+		<div class="col-sm-4 portfolio-item">
+			<a href="#{{ item.anchor }}" class="portfolio-link" data-keyboard="true" data-toggle="modal">
+				<div class="caption" >
+					<div class="caption-content" >
+						{{ item.title }}<p></p>
+						<i class="fa fa-search-plus"></i><p></p>
+						Category: {{ item.category }}
 					</div>
-					<img src="{{ item.image }}" class="img-responsive center-img" alt="">
-				</a>
-
-			<table class="table table-bordered">
-			<thead class="text-center">
-				<tr>
-
-					<td width="33.333%">
-					Android
-					</td>
-
-					<td width="33.333%">
-					website
-					</td>
-
-					<td width="33.333%">
-					api
-					</td>
-
-
-				</tr>
-			</thead>
-
-			 <tbody>
-			 <tr>
-
-					<td>
-						<a href="{{ item.play_store }}">
-							<img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" class="img-responsive img-centered" alt="get it on googlr play">
-						</a>
-					</td>
-
-					<td>
-						<a href="{{ item.website_link }}">
-							<img src="https://cdn0.iconfinder.com/data/icons/seo-smart-pack/128/grey_new_seo2-04-48.png" class="img-responsive img-centered" alt="open website">
-						</a>
-					</td>
-
-					<td> <a href="{{ item.api_link }}">  <img
-					src="https://cdn0.iconfinder.com/data/icons/seo-smart-pack/128/grey_new_seo2-04-48.png"
-					class="img-responsive img-centered" alt="api link"> </a>
-				</td>
-
-				</tr>
-				<tr>
-					<td>
-						<a href="{{ item.android_github_link }}">
-							<img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" class="img-responsive img-centered" alt="Source code">
-						</a>
-					</td>
-
-					<td>
-						<a href="{{ item.website_github_link }}">
-							<img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" class="img-responsive img-centered" alt="Source code">
-						</a>
-					</td>
-
-					<td>
-						<a href="{{ item.api_github_link }}">
-							<img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" class="img-responsive img-centered" alt="Source code">
-						</a>
-					</td>
-
-
-				</tr>
-
-			 </tbody>
-			</table>
+				</div>
+				<img src="{{ item.image }}" class="img-responsive" alt="">
+			</a>
 		</div>
 		{% endfor %}
-</div>
 	</section>
 
 	<!-- Portfolio Modals -->
