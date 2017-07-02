@@ -6,6 +6,8 @@ date: Jun 2017
 category: Android
 play_store: https://play.google.com/store/apps/details?id=com.fekracomputers.islamiclibrary&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1
 android_github_link: https://github.com/fekracomputers/IslamicLibraryAndroid
+website_github_link: https://github.com/fekracomputers/IslamicLibraryWebsite
+api_github_link: https://github.com/fekracomputers/IslamicLibraryWebservice
 ---
 [![Build Status](https://travis-ci.org/fekracomputers/IslamicLibraryAndroid.svg?branch=master)](https://travis-ci.org/fekracomputers/IslamicLibraryAndroid)
 

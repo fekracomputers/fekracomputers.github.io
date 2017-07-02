@@ -1,11 +1,13 @@
 ---
-anchor: MuslimMateAndroid 
-title: Islamic Library 
+anchor: MuslimMate
+title: Muslim Mate
 image: img/portfolio/MuslimMate.png
 date: September 2017
 category: Android
 play_store: https://play.google.com/store/apps/details?id=com.fekracomputers.muslimmate&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1
 android_github_link: https://github.com/fekracomputers/MuslimMateAndroid
+website_github_link: https://github.com/fekracomputers/MuslimMateWebsite
+api_github_link: https://github.com/fekracomputers/MuslimMateWebservice
 ---
 [![Build Status](https://travis-ci.org/fekracomputers/MuslimMateAndroid.svg?branch=master)](https://travis-ci.org/fekracomputers/MuslimMateAndroid)
 

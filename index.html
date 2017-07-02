@@ -56,7 +56,7 @@ description: "Islamic Opens Source Software news,Ideas and tutorials"
 						<div class="caption-content" >
 							{{ item.title }}<p></p>
 							<i class="fa fa-search-plus"></i><p></p>
-							Category: {{ item.category }}
+							/*Category: {{ item.category }} */
 						</div>
 					</div>
 					<img src="{{ item.image }}" class="img-responsive center-img" alt="">
@@ -94,10 +94,14 @@ description: "Islamic Opens Source Software news,Ideas and tutorials"
 				</a>			
 				</div>
 				<div class="col-sm-4">
-				website
+				<a href="{{ item.website_github_link }}"> 
+					<img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" class="img-responsive img-centered" alt="Source code">
+				</a>
 				</div>
 				<div class="col-sm-4">
-				api
+				<a href="{{ item.api_github_link }}"> 
+					<img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" class="img-responsive img-centered" alt="Source code">
+				</a>
 				</div>
 			</div>
 		</div>
