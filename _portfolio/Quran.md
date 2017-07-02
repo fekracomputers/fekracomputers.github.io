@@ -7,9 +7,8 @@ category: Android
 play_store:https://play.google.com/store/apps/details?id=com.fekracomputers.quran&hl=en&utm_source=github&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1
 android_github_link: https://github.com/fekracomputers/QuranAndroid
 website_github_link: https://github.com/fekracomputers/QuranWebsite
-api_github_link: 
 website_link: http://quran.islam-db.com/
-api_link: 
+
 ---
 [![Build Status](https://travis-ci.org/fekracomputers/QuranAndroid.svg?branch=master)](https://travis-ci.org/fekracomputers/QuranAndroid)
 
