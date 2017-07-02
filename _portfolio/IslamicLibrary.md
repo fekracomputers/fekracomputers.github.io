@@ -4,6 +4,7 @@ title: Islamic Library
 image: img/portfolio/IslamicLibrary.png
 date: Jun 2017
 category: Android
+play_store: https://play.google.com/store/apps/details?id=com.fekracomputers.islamiclibrary&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1
 ---
 [![Build Status](https://travis-ci.org/fekracomputers/IslamicLibraryAndroid.svg?branch=master)](https://travis-ci.org/fekracomputers/IslamicLibraryAndroid)
 
