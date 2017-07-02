@@ -1,39 +1,36 @@
 ---
-anchor: Quran
-title: Quran
+anchor: MuslimMate2
+title: Muslim Mate2
 image: img/portfolio/Quran.png
-date: September 2016
+date: September 2017
 category: Android
-play_store:https://play.google.com/store/apps/details?id=com.fekracomputers.quran&hl=en&utm_source=github&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1
-android_github_link: https://github.com/fekracomputers/QuranAndroid
-website_github_link: https://github.com/fekracomputers/QuranWebsite
-website_link: http://quran.islam-db.com/
+play_store: https://play.google.com/store/apps/details?id=com.fekracomputers.muslimmate&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1
+android_github_link: https://github.com/fekracomputers/MuslimMateAndroid
+website_github_link: https://github.com/fekracomputers/MuslimMateWebsite
+api_github_link: https://github.com/fekracomputers/MuslimMateWebservice
+website_link: http://muslimmate.islam-db.com/
+api_link:  http://muslimmateapi.islam-db.com
 ---
-[![Build Status](https://travis-ci.org/fekracomputers/QuranAndroid.svg?branch=master)](https://travis-ci.org/fekracomputers/QuranAndroid)
+[![Build Status](https://travis-ci.org/fekracomputers/MuslimMateAndroid.svg?branch=master)](https://travis-ci.org/fekracomputers/MuslimMateAndroid)
 
-# QuranAndroid 
+# MuslimMate
 
-The Quran is a free android application developed by Fekra Computers.
+Muslim mate is an android application to organize Muslims life.
 
-<a href='https://play.google.com/store/apps/details?id=com.fekracomputers.quran&hl=en&utm_source=github&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+<a href='https://play.google.com/store/apps/details?id=com.fekracomputers.muslimmate&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
 <img alt='Get it on Google Play' width="200px" src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/>
 </a>
 
 
-Application features:
-- Sophisticated Index
-- Recitations
-- The ability to save the verse bookmark
-- The ability to share verse or a link to it
-- The ability to download a number of Tafsir, such as Tafsir Ibn Kathir and Al-Saadi
-- highlight verse with recitation
-- Search in the Qur'an and Tafsir
-- Night mode
-- Repeat the recitation 
-- High-quality Quran images 
+## It provides following significant features:
 
-## Note:
-This is **NOT** a fork of [Quran Android](https://github.com/quran/quran_android) however it is influnced by its UI design
-
-## contribution
-- originally develoed by [Mohamed Mo'men](https://github.com/mmoamenn) @ fekracomputers
+- Praying times.
+- Compass direction and map-compass too.
+- Mosques and halal restaurant around me.
+- Date conversion from Hijri to Gregorian and vice versa.
+- Hijri and Gregorian calendar, you can check praying time in any future or past date.
+- Daily azkar.
+- Islamic events.
+- Daily Weather information.
+- Controllable notifications.
+- Azkar share.
