@@ -84,37 +84,45 @@ description: "Islamic Opens Source Software news,Ideas and tutorials"
 			 <tbody>
 			 <tr>
 					<td>
+					{% if item.play_store %}		
 						<a href="{{ item.play_store }}">
 							<img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" class="img-responsive img-centered" alt="get it on googlr play">
 						</a>
 					</td>
-
+					{% endif %}
 					<td>
+					{% if item.website_link %}	
 						<a href="{{ item.website_link }}">
 							<img src="https://cdn0.iconfinder.com/data/icons/seo-smart-pack/128/grey_new_seo2-04-48.png" class="img-responsive img-centered" alt="open website">
 						</a>
+					{% endif %}
 					</td>
 
 					<td> 
+					{% if item.api_link %}	
 						<a href="{{ item.api_link }}"> 
 							<img src="https://www.access2view.co.uk/wp-content/uploads/2016/11/api.png"> 
 						</a>
+					{% endif %}
 					</td>
 
 				</tr>
 				<tr>
 					<td>
+					{% if item.android_github_link %}					
 						<a href="{{ item.android_github_link }}">
 							<img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" class="img-responsive img-centered" alt="Source code">
 						</a>
+					{% endif %}
 					</td>
 
 					<td>
+					{% if item.website_github_link %}
 						<a href="{{ item.website_github_link }}">
 							<img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" class="img-responsive img-centered" alt="Source code">
 						</a>
 					</td>
-
+					{% endif %}
 					<td>
 					{% if item.api_github_link %}
 						<a href="{{ item.api_github_link }}">
