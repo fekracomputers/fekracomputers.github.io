@@ -1,20 +1,39 @@
 ---
 layout: page
-title : Shikher Verma
-header-img: "img/home-bg.jpg"
-description: "Programmer Wannabe"
+title : Fekra Computers Opens Source
+header-img: "img/Company Logo.png"
+description: "Islamic Opens Source Software news,Ideas and tutorials"
 ---
 
 <!-- About Content -->
 <section id="about">
 	<div>
-		<p>
-			Here is the part where I am supposed to describe myself !
-			After 2 hours of intense staring competition with my laptop, this is what I came up with.
-		</p>
-		<p>
-			Hi, I am an undergrad student at I.I.T. Kanpur majoring in physics who believes in the philosophy of open source and will be happy to collaborate with you on any interesting project. When not staring at some code you could find me in the chess club solving chess puzzles or at the basketball field. If there is an exam tomorrow you might find me sleeping in the library.
-		</p>
+		Home for Fekra computers islamic open source projects<br>
+<p>This website two main goals:</p>
+<ol>
+<li>Source for <a href="http://fekracomputers.github.io">fekracomputers.github.io</a> website</li>
+<li><a href="https://github.com/fekracomputers/fekracomputers.github.io/issues">The issue track</a> for general issues and open source islamic project suggestion</li>
+</ol>
+<strong>The website</strong>
+<ol>
+<li>Provide news and information about our applications</li>
+<li><a href="/blog/">blog</a>
+<ol>
+<li>Provide general instructions for contributing in our projects</li>
+<li>Provide some technical</li>
+<li>Information about open source islamic software generally</li>
+</ol>
+</li>
+</ol>
+<p>Note that the website and all its content <em>is</em> a <strong><a href="https://github.com/fekracomputers/fekracomputers.github.io/">git repo</a></strong> so any for any addition, suggestion, typo or correction make a pull request</p>
+<strong>Project Idea Suggestion or general contribution</strong>
+<ul>
+<li>
+<p>If you think of any Islamic software project Idea please create an issue in <a href="https://github.com/fekracomputers/fekracomputers.github.io/issues">the issue track</a> and tag it "project suggestion"</p>
+</li>
+<li>
+<p>If you want to contribute with your <strong>coding</strong> ,<strong>UI design</strong>, <strong>translation</strong> or  <strong>website</strong> editing effort but don't know where to star or which issue have higher priority please create an issue in <a href="https://github.com/fekracomputers/fekracomputers.github.io/issues">the issue track</a> and tag it "help offer" and your specific skill as (web,android ...)</p>
+
 	</div>
 </section>
 
@@ -22,26 +41,95 @@ description: "Programmer Wannabe"
 <section id="portfolio">
 	<div class="row">
 		<div class="text-center">
-			<h2>Here's the stuff I've yet to disavow.</h2>
+			<h2>Our Open Source Projects</h2>
 			<hr>
 		</div>
 	</div>
 
 	<div class="row">
 		{% for item in site.portfolio %}
-		<div class="col-sm-4 portfolio-item">
-			<a href="#{{ item.anchor }}" class="portfolio-link" data-keyboard="true" data-toggle="modal">
-				<div class="caption" >
-					<div class="caption-content" >
-						{{ item.title }}<p></p>
-						<i class="fa fa-search-plus"></i><p></p>
-						Category: {{ item.category }}
+		<div class="col-sm-6 portfolio-item">
+		<p class="text-center"><b>{{ item.title }}</b></p>
+				<a href="#{{ item.anchor }}" class="portfolio-link" data-keyboard="true" data-toggle="modal">
+
+					<div class="caption" >
+						<div class="caption-content" >
+							{{ item.title }}<p></p>
+							<i class="fa fa-search-plus"></i><p></p>
+							<!-- Category: {{ item.category }} -->
+						</div>
 					</div>
-				</div>
-				<img src="{{ item.image }}" class="img-responsive" alt="">
-			</a>
+					<img src="{{ item.image }}" class="img-responsive center-img" alt="">
+				</a>
+
+			<table class="table table-bordered">
+			<thead class="text-center">
+				<tr>
+
+					<td width="33.333%">
+					Android
+					</td>
+
+					<td width="33.333%">
+					website
+					</td>
+
+					<td width="33.333%">
+					api
+					</td>
+
+
+				</tr>
+			</thead>
+
+			 <tbody>
+			 <tr>
+
+					<td>
+						<a href="{{ item.play_store }}">
+							<img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" class="img-responsive img-centered" alt="get it on googlr play">
+						</a>
+					</td>
+
+					<td>
+						<a href="{{ item.website_link }}">
+							<img src="https://cdn0.iconfinder.com/data/icons/seo-smart-pack/128/grey_new_seo2-04-48.png" class="img-responsive img-centered" alt="open website">
+						</a>
+					</td>
+
+					<td> <a href="{{ item.api_link }}">  <img
+					src="https://cdn0.iconfinder.com/data/icons/seo-smart-pack/128/grey_new_seo2-04-48.png"
+					class="img-responsive img-centered" alt="api link"> </a>
+				</td>
+
+				</tr>
+				<tr>
+					<td>
+						<a href="{{ item.android_github_link }}">
+							<img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" class="img-responsive img-centered" alt="Source code">
+						</a>
+					</td>
+
+					<td>
+						<a href="{{ item.website_github_link }}">
+							<img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" class="img-responsive img-centered" alt="Source code">
+						</a>
+					</td>
+
+					<td>
+						<a href="{{ item.api_github_link }}">
+							<img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" class="img-responsive img-centered" alt="Source code">
+						</a>
+					</td>
+
+
+				</tr>
+
+			 </tbody>
+			</table>
 		</div>
 		{% endfor %}
+</div>
 	</section>
 
 	<!-- Portfolio Modals -->
@@ -62,12 +150,9 @@ description: "Programmer Wannabe"
 								<h2>{{ item.title }}</h2>
 								<hr class="star-primary">
 								<img src="{{ item.image }}" class="img-responsive img-centered" alt="">
-								<p>{{ item.description }}</p>
+								<p class="item-description">{{ item.content }}</p>
 								<ul class="list-inline item-details">
-									<li>Team:
-										<strong>{{ item.team }}
-										</strong>
-									</li>
+
 									<li>Date:
 										<strong>{{ item.date | date: '%B %Y' }}
 										</strong>
