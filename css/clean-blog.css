@@ -130,7 +130,7 @@ body{webkit-tap-highlight-color:#0085a1;}
 .floating-label-form-group::not(:first-child){padding-left:14px;border-left:1px solid #eee;}
 .floating-label-form-group-with-value label{top:0;opacity:1;}
 .floating-label-form-group-with-focus label{color:#18bc9c;}
-.portfolio-modal .modal-content{padding:100px 0;min-height:100%;border:0;border-radius:0;text-align:center;background-clip:border-box;-webkit-box-shadow:none;box-shadow:none;}
+.portfolio-modal .modal-content{padding:100px 0;min-height:100%;border:0;border-radius:0;/*! text-align:center; */background-clip:border-box;-webkit-box-shadow:none;box-shadow:none;}
 .portfolio-modal .modal-content h2{margin:0;font-size:3em;}
 .portfolio-modal .modal-content img{margin-bottom:30px;}
 .portfolio-modal .modal-content .item-details{margin:30px 0;}

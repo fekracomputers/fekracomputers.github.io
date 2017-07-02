@@ -48,8 +48,9 @@ description: "Islamic Opens Source Software news,Ideas and tutorials"
 
 	<div class="row">
 		{% for item in site.portfolio %}
-		<div class="col-sm-4 portfolio-item">
+		<div class="col-sm-6 portfolio-item">
 			<a href="#{{ item.anchor }}" class="portfolio-link" data-keyboard="true" data-toggle="modal">
+			
 				<div class="caption" >
 					<div class="caption-content" >
 						{{ item.title }}<p></p>
@@ -59,6 +60,17 @@ description: "Islamic Opens Source Software news,Ideas and tutorials"
 				</div>
 				<img src="{{ item.image }}" class="img-responsive" alt="">
 			</a>
+			<div class="col-sm-4">
+			android
+			</div>
+			<div class="col-sm-4">
+			website
+			</div>
+			<div class="col-sm-4">
+			source
+			</div>
+
+
 		</div>
 		{% endfor %}
 	</section>
