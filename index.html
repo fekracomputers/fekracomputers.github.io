@@ -116,9 +116,11 @@ description: "Islamic Opens Source Software news,Ideas and tutorials"
 					</td>
 
 					<td>
+					{% if item.api_github_link %}
 						<a href="{{ item.api_github_link }}">
 							<img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" class="img-responsive img-centered" alt="Source code">
 						</a>
+					{% endif %}
 					</td>
 
 
