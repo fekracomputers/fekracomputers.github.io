@@ -2,8 +2,6 @@
 anchor: Quran
 title: Quran
 image: img/portfolio/Quran.png
-date: September 2016
-category: Android
 play_store: https://play.google.com/store/apps/details?id=com.fekracomputers.quran&hl=en&utm_source=github&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1
 android_github_link: https://github.com/fekracomputers/QuranAndroid
 website_github_link: https://github.com/fekracomputers/QuranWebsite
