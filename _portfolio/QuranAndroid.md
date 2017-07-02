@@ -8,6 +8,7 @@ play_store:https://play.google.com/store/apps/details?id=com.fekracomputers.qura
 android_github_link: https://github.com/fekracomputers/QuranAndroid
 website_github_link: https://github.com/fekracomputers/QuranWebsite
 api_github_link: 
+website_link: http://quran.islam-db.com/
 ---
 [![Build Status](https://travis-ci.org/fekracomputers/QuranAndroid.svg?branch=master)](https://travis-ci.org/fekracomputers/QuranAndroid)
 

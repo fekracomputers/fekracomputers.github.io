@@ -8,6 +8,7 @@ play_store: https://play.google.com/store/apps/details?id=com.fekracomputers.isl
 android_github_link: https://github.com/fekracomputers/IslamicLibraryAndroid
 website_github_link: https://github.com/fekracomputers/IslamicLibraryWebsite
 api_github_link: https://github.com/fekracomputers/IslamicLibraryWebservice
+website_link: http://books.islam-db.com/
 ---
 [![Build Status](https://travis-ci.org/fekracomputers/IslamicLibraryAndroid.svg?branch=master)](https://travis-ci.org/fekracomputers/IslamicLibraryAndroid)
 
