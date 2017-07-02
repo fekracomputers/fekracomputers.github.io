@@ -58,7 +58,7 @@ description: "Islamic Opens Source Software news,Ideas and tutorials"
 							<!-- Category: {{ item.category }} -->
 						</div>
 					</div>
-					<img src="{{ item.image }}" class="img-responsive center-img" alt="">
+					<img src="{{ item.image }}" class="img-responsive center-img" alt="{{ item.title }}">
 				</a>
 
 			<table class="table table-bordered" vertical-align="middle">
@@ -99,11 +99,9 @@ description: "Islamic Opens Source Software news,Ideas and tutorials"
 					</td>
 
 					<td> 
-					{% if item.api_link %}	
 						<a href="{{ item.api_link }}"> 
 							<img src="https://www.access2view.co.uk/wp-content/uploads/2016/11/api.png"> 
 						</a>
-					{% endif %}
 					</td>
 
 				</tr>
