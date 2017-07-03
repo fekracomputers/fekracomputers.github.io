@@ -6,9 +6,10 @@ date:       2017-02-23 17:00:00
 author:     "Mohammad Yahia"
 header-img: "img/posts/jekyll-bg.jpg"
 comments: true
-tags: [ Full_Text_Searchging ]
+tags: [ Full_Text_Search ]
 ---
 <span class="c5">بسم الله الرحمن الرحيم</span>
+
 
 # <span class="c19">Introduction</span>
 
@@ -1483,7 +1484,7 @@ Arabic characters in the Mark,Nonspacing</span>
 
 # <span>Java</span> <span class="c19">Regex handling</span>
 
-<span class="c29">To match a single character belonging to the</span> <span class="c29 c31"><category></span><span class="c29">category with</span> <span class="c26">\p{</span><span class="c26 c31"><category></span><span class="c26">}</span><span class="c29">.</span>
+<span class="c29">To match a single character belonging to the</span> <span class="c29 c31"><category></span><span class="c29"> category with</span> <span class="c26">\p{</span><span class="c26 c31"><category></span><span class="c26">}</span><span class="c29">.</span>
 
 <span>The pattern to find</span> <span class="c5">Mark,Nonspacing category is “\p{Mn}” (for java the backslash needs to be escaped inside the string quotation “\\p{Mn}” )</span>
 
