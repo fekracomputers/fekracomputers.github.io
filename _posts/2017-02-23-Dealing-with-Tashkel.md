@@ -4,7 +4,7 @@ title:      "Dealing with Tashkel"
 subtitle:   "FTS4 contentless and external content table"
 date:       2017-02-23 17:00:00
 author:     "Mohammad Yahia"
-header-img: "img/posts/jekyll-bg.jpg"
+header-img: "img/posts/tashkeel.jpg"
 comments: true
 tags: [ Full_Text_Search ]
 ---
@@ -21,9 +21,9 @@ tags: [ Full_Text_Search ]
 
 ## <span class="c14">Update:</span>
 
-<span class="c5">A better way would be to leave only the letter,other {Lo} category which contains the basic arabic language</span>
+<span class="c5">A better way would be to leave only the letter, other {Lo} category which contains the basic arabic language</span>
 
-<span class="c5">Also leave spaces,tabs and newlines</span>
+<span class="c5">Also leave spaces, tabs and newlines</span>
 
 <span class="c5">[^\p{Lo}\p{Z}\n]</span>
 
