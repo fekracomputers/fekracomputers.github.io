@@ -1,12 +1,12 @@
 ---
 layout:     post
-title:      "Dealing with Tashkel"
-subtitle:   "FTS4 contentless and external content table"
+title:      "removing Tashkel"
+subtitle:   "removing arabic tasjkeel for better serarch"
 date:       2017-02-23 17:00:00
 author:     "Mohammad Yahia"
 header-img: "img/posts/tashkeel.jpg"
 comments: true
-tags: [ Full_Text_Search ]
+tags: [ Full_Text_Search , Arabic_NLP ]
 ---
 <span class="c5">بسم الله الرحمن الرحيم</span>
 
