@@ -41,13 +41,11 @@ layout: default
             <div class="panel-heading">
               <h2 class="panel-title">blog tags</h2>
             </div>
-              <ul class="list-inlinep">
                 {% for tag in page.tags %}
                 <li>
-                  <a href="/blog/tags/{{ tag }}" style="text-decoration: normal; font-weight: normal; color: #ffffff;"><i class="fa fa-tag"></i>{{ tag }}</a>
+                  <a href="/blog/tags/{{ tag }}" style="text-decoration: normal; font-weight: normal;"><i class="fa fa-tag"></i>{{ tag }}</a>
                 </li>
                 {% endfor %}
-              </ul>
           </div>
         </div>
         <div class="col-md-3 col-lg-4">
