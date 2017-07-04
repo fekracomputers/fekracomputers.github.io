@@ -45,7 +45,7 @@ layout: default
             <div class="panel-body">
               {% for post in site.posts %}
               <li class="list">
-                {{ page.title }}
+                <a href="{{ post.url }}">{{ post.title }}</a>
               </li>
               {% endfor %}
 
