@@ -4,7 +4,7 @@ title:      "Open Source Islamic app list"
 subtitle:   ""
 date:       2017-05-03 17:00:00
 author:     "Mohammad Yahia"
-header-img: ""img/tags/islamic_open_source.jpg""
+header-img: "img/posts/jekyll-bg.jpg"
 comments: true
 tags: [ islamic_open_source ]
 ---
