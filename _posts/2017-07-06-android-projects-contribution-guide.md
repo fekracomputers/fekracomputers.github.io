@@ -11,8 +11,8 @@ tags: [contribution_tutorials]
 # Welcome
 
 # General Steps
-com
+
 # Sources
 - [Collaborating with issues and pull requests](https://help.github.com/categories/collaborating-with-issues-and-pull-requests/)
-- [](https://help.github.com/articles/fork-a-repo/)
-- [](https://gist.github.com/Chaser324/ce0505fbed06b947d962)
+- [GitHub fork a repo guide](https://help.github.com/articles/fork-a-repo/)
+- [Useful gist (uses rebase)](https://gist.github.com/Chaser324/ce0505fbed06b947d962)
