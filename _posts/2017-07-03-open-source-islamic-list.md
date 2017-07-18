@@ -8,11 +8,8 @@ header-img: "img/posts/jekyll-bg.jpg"
 comments: true
 tags: [ islamic_open_source ]
 ---
-## The aim of this list is to
-- support exisiting projects by helping people who want to contribute find them easily.
-- help developers find the best resources that help them while developing new islamic apps being aware of the current repos and apps and the gaps in differenet platoforms.
-- help users in different platforms find the best islamic apps that can help them in their life.
 
+> forked from [awesome-Islam](https://github.com/AhmedKamal/awesome-Islam) be [AhmedKamal](https://github.com/AhmedKamal)
 > You may also find it useful to check [awesome-arabic](https://github.com/01walid/awesome-arabic)
 
 Your contributions are always welcome!
@@ -30,6 +27,8 @@ Your contributions are always welcome!
 - [ITL-Java](https://github.com/fikr4n/itl-java) : ITL Java is a Java library based on LGPL-licensed ITL (Islamic Tools and Libraries), currently includes prayer times (salat), Hijri date, and qibla direction.
 - [iclib-java](https://github.com/fikr4n/iclib-java) : Islamic Calculation Library (ICLib) contains calculations for prayer (salat) times, qibla direction, and Hijri conversion
 - [Pray-Times](https://github.com/abodehq/Pray-Times/tree/master/Code/v2/java) : an open-source library for calculating Muslim prayers times.
+- [Ummalqura calendar] (https://github.com/msarhan/ummalqura-calendar) : percise implementation for java.util.calender for Ummalqura Hijri calender which produces result as the official one  
+
 
 ### Javascript
 - [node,websql and javascript API for Holy quran] (https://github.com/qzaidi/quran) : node,websql and javascript API for Holy quran http://qzaidi.github.io/quran/
