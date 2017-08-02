@@ -5,6 +5,7 @@ subtitle:   "contribute to open source Android projects on Github"
 date:       2017-07-06 16:36:00
 author:     "Mohammad Yahia"
 header-img: "img/tags/contribution_tutorials.jpg"
+light_background: true
 comments: true
 tags: [contribution_tutorials]
 ---
